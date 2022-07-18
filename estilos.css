@@ -68,5 +68,24 @@ li a:hover{
     border:red solid 5px;
     border-radius: 10px;
 }
+@media only screen and (min-width:324px) and (max-width:1920px) {
 
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    body{
+        background-image: url(img3/74751-pop-art.jpg);
+        height:100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+ }
 
